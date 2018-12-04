@@ -7,13 +7,17 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
+import { PrincipalComponent } from './principal/principal.component';
+import { FooterComponent } from './footer/footer.component';
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         NgModule({
             declarations: [
-                AppComponent
+                AppComponent,
+                PrincipalComponent,
+                FooterComponent
             ],
             imports: [
                 BrowserModule
